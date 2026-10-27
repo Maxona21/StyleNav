@@ -1,0 +1,22 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:StyleNav"
+             x:Class="StyleNav.App">
+    <Application.Resources>
+     
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+                <ResourceDictionary Source="Resources/MojeStyle/styl.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="KolorGlowny">#8c03fc</Color>
+            <Color x:Key="KolorTekstu">#037bfc</Color>
+            <x:Double x:Key="RozmiarTytulu">24</x:Double>
+            <Thickness x:Key="StandardowyMargines">10,15,10,15</Thickness>
+            <Color x:Key="KolorStrony">#e3cef5</Color>
+        </ResourceDictionary> 
+      
+    </Application.Resources>
+</Application>

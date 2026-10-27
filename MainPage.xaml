@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StyleNav.MainPage">
+    <ContentPage.Resources>
+
+    </ContentPage.Resources>
+    <ScrollView>
+
+        <VerticalStackLayout
+            Padding="20"
+            Spacing="15"
+            BackgroundColor="{StaticResource KolorStrony}">
+            <Label
+                Text="Witaj w aplikacji"
+                TextColor="{StaticResource KolorGlowny}"
+                FontSize="{StaticResource RozmiarTytulu}" />
+            <Button 
+                Text="Rozpocznij"
+                BackgroundColor="{StaticResource KolorGlowny}"
+                Style="{StaticResource StylPrzycisku}"
+                TextColor="White"
+                Margin="{StaticResource StandardowyMargines}"/>
+            <Label
+                Text="Opis aplikacji"
+                TextColor="{StaticResource KolorTekstu}"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
